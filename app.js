@@ -453,7 +453,7 @@ function App() {
             
             <div className="fade-in space-y-6">
               <div className="bg-white p-8 rounded-3xl shadow-xl border border-amber-100">
-                <div className="text-4xl mb-4">🌙</div>
+                <span className="material-icons text-5xl text-amber-600 mb-4">nights_stay</span>
                 <h3 className="text-2xl font-bold text-amber-950 mb-4">Midnight Paws Café</h3>
                 <p className="text-gray-700 leading-relaxed text-lg">
                   Born from a simple truth: some of the best ideas, deepest conversations, and most productive 
@@ -462,7 +462,7 @@ function App() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-xl border border-amber-100">
-                <div className="text-4xl mb-4">👥</div>
+                <span className="material-icons text-5xl text-amber-600 mb-4">people</span>
                 <h3 className="text-2xl font-bold text-amber-950 mb-4">For Night Owls</h3>
                 <p className="text-gray-700 leading-relaxed text-lg">
                   Whether you're a student burning the midnight oil, a creative finding inspiration at 2 AM, 
@@ -471,10 +471,11 @@ function App() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-xl border border-amber-100">
-                <div className="text-4xl mb-4">❤️</div>
+                <span className="material-icons text-5xl text-amber-600 mb-4">favorite</span>
                 <h3 className="text-2xl font-bold text-amber-950 mb-4">Passion & Comfort</h3>
                 <p className="text-gray-700 leading-relaxed text-lg">
                   Founded by individuals who cherish <span className="text-amber-700 font-semibold">cozy moments</span>, 
+                  <span className="text-amber-700 font-semibold"> late night talks</span>, 
                   <span className="text-amber-700 font-semibold"> comfort</span>, and <span className="text-amber-700 font-semibold">exceptional coffee</span>. 
                   Quality shouldn't sleep when the sun goes down.
                 </p>
@@ -485,7 +486,7 @@ function App() {
           {/* Mission Cards */}
           <div className="grid md:grid-cols-3 gap-8 fade-in">
             <div className="bg-gradient-to-br from-amber-600 to-amber-700 text-white p-10 rounded-3xl shadow-xl transform hover:scale-105 transition-all">
-              <div className="text-5xl mb-6">🌙</div>
+              <span className="material-icons text-6xl mb-6">dark_mode</span>
               <h3 className="text-2xl font-bold mb-4">Late Night Heroes</h3>
               <p className="text-amber-50 leading-relaxed">
                 We're here when others aren't. Your midnight craving is our mission. 
@@ -493,7 +494,7 @@ function App() {
               </p>
             </div>
             <div className="bg-gradient-to-br from-amber-700 to-amber-800 text-white p-10 rounded-3xl shadow-xl transform hover:scale-105 transition-all">
-              <div className="text-5xl mb-6">☕</div>
+              <span className="material-icons text-6xl mb-6">local_cafe</span>
               <h3 className="text-2xl font-bold mb-4">Comfort First</h3>
               <p className="text-amber-50 leading-relaxed">
                 Every cup is crafted to bring warmth and comfort. We believe coffee is more 
@@ -501,7 +502,7 @@ function App() {
               </p>
             </div>
             <div className="bg-gradient-to-br from-amber-800 to-amber-900 text-white p-10 rounded-3xl shadow-xl transform hover:scale-105 transition-all">
-              <div className="text-5xl mb-6">🎯</div>
+              <span className="material-icons text-6xl mb-6">volunteer_activism</span>
               <h3 className="text-2xl font-bold mb-4">Made with Passion</h3>
               <p className="text-amber-50 leading-relaxed">
                 Started by coffee enthusiasts who truly care. Every drink reflects our 
