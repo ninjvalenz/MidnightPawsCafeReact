@@ -444,70 +444,118 @@ function App() {
                   alt="Coffee preparation"
                   className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                 />
-                <div className="absolute -bottom-8 -right-8 bg-gradient-to-br from-amber-600 to-amber-700 text-white p-8 rounded-3xl shadow-2xl max-w-xs">
-                  <div className="text-5xl font-bold mb-2">2015</div>
-                  <div className="text-lg">Where it all began</div>
+                <div className="absolute -bottom-6 -right-6 lg:-bottom-8 lg:-right-8 bg-gradient-to-br from-amber-900 to-stone-900 text-white p-6 lg:p-8 rounded-3xl shadow-2xl max-w-[200px] lg:max-w-xs">
+                  <div className="text-4xl lg:text-5xl font-bold mb-2">2025</div>
+                  <div className="text-base lg:text-lg">Where it all began</div>
                 </div>
               </div>
             </div>
             
-            <div className="fade-in space-y-6">
-              <div className="bg-white p-8 rounded-3xl shadow-xl border border-amber-100">
-                <span className="material-icons text-5xl text-amber-600 mb-4">nights_stay</span>
-                <h3 className="text-2xl font-bold text-amber-950 mb-4">Midnight Paws Café</h3>
-                <p className="text-gray-700 leading-relaxed text-lg">
-                  Born from a simple truth: some of the best ideas, deepest conversations, and most productive 
-                  work happen after dark. We understand the struggle of late-night coffee cravings.
-                </p>
+            <div className="fade-in space-y-4 lg:space-y-6">
+              <div className="group relative overflow-hidden bg-gradient-to-br from-stone-50 to-amber-50 p-6 lg:p-8 rounded-3xl shadow-2xl border-2 border-amber-100/50 card-premium">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/10 rounded-full blur-3xl"></div>
+                <div className="relative">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-14 h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-amber-800 to-stone-900 rounded-2xl flex items-center justify-center shadow-lg">
+                      <span className="material-icons md-48 text-amber-100">nights_stay</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl lg:text-2xl font-bold text-stone-900 mb-2">Midnight Paws Café</h3>
+                      <div className="w-16 h-1 bg-gradient-to-r from-amber-600 to-transparent rounded"></div>
+                    </div>
+                  </div>
+                  <p className="text-stone-700 leading-relaxed text-base lg:text-lg font-light">
+                    Born from a simple truth: some of the best ideas, deepest conversations, and most productive 
+                    work happen after dark. We understand the struggle of late-night coffee cravings.
+                  </p>
+                </div>
               </div>
 
-              <div className="bg-white p-8 rounded-3xl shadow-xl border border-amber-100">
-                <span className="material-icons text-5xl text-amber-600 mb-4">people</span>
-                <h3 className="text-2xl font-bold text-amber-950 mb-4">For Night Owls</h3>
-                <p className="text-gray-700 leading-relaxed text-lg">
-                  Whether you're a student burning the midnight oil, a creative finding inspiration at 2 AM, 
-                  or simply someone who loves the comfort of a warm cup when the world is quiet - we created this for you.
-                </p>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-amber-50 to-stone-50 p-6 lg:p-8 rounded-3xl shadow-2xl border-2 border-amber-100/50 card-premium">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-stone-400/10 rounded-full blur-3xl"></div>
+                <div className="relative">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-14 h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-stone-800 to-amber-900 rounded-2xl flex items-center justify-center shadow-lg">
+                      <span className="material-icons md-48 text-amber-100">people</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl lg:text-2xl font-bold text-stone-900 mb-2">For Night Owls</h3>
+                      <div className="w-16 h-1 bg-gradient-to-r from-stone-600 to-transparent rounded"></div>
+                    </div>
+                  </div>
+                  <p className="text-stone-700 leading-relaxed text-base lg:text-lg font-light">
+                    Whether you're a student burning the midnight oil, a creative finding inspiration at 2 AM, 
+                    or simply someone who loves the comfort of a warm cup when the world is quiet - we created this for you.
+                  </p>
+                </div>
               </div>
 
-              <div className="bg-white p-8 rounded-3xl shadow-xl border border-amber-100">
-                <span className="material-icons text-5xl text-amber-600 mb-4">favorite</span>
-                <h3 className="text-2xl font-bold text-amber-950 mb-4">Passion & Comfort</h3>
-                <p className="text-gray-700 leading-relaxed text-lg">
-                  Founded by individuals who cherish <span className="text-amber-700 font-semibold">cozy moments</span>, 
-                  <span className="text-amber-700 font-semibold"> late night talks</span>, 
-                  <span className="text-amber-700 font-semibold"> comfort</span>, and <span className="text-amber-700 font-semibold">exceptional coffee</span>. 
-                  Quality shouldn't sleep when the sun goes down.
-                </p>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-stone-50 via-amber-50 to-stone-50 p-6 lg:p-8 rounded-3xl shadow-2xl border-2 border-amber-100/50 card-premium">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/10 rounded-full blur-3xl"></div>
+                <div className="relative">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-14 h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-amber-900 to-red-900 rounded-2xl flex items-center justify-center shadow-lg">
+                      <span className="material-icons md-48 text-amber-100">favorite</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl lg:text-2xl font-bold text-stone-900 mb-2">Passion & Comfort</h3>
+                      <div className="w-16 h-1 bg-gradient-to-r from-amber-600 to-transparent rounded"></div>
+                    </div>
+                  </div>
+                  <p className="text-stone-700 leading-relaxed text-base lg:text-lg font-light">
+                    Founded by individuals who cherish <span className="text-amber-900 font-semibold">cozy moments</span>, 
+                    <span className="text-amber-900 font-semibold"> late night talks</span>, 
+                    <span className="text-amber-900 font-semibold"> comfort</span>, and <span className="text-amber-900 font-semibold">exceptional coffee</span>. 
+                    Quality shouldn't sleep when the sun goes down.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
           {/* Mission Cards */}
-          <div className="grid md:grid-cols-3 gap-8 fade-in">
-            <div className="bg-gradient-to-br from-amber-600 to-amber-700 text-white p-10 rounded-3xl shadow-xl transform hover:scale-105 transition-all">
-              <span className="material-icons text-6xl mb-6">dark_mode</span>
-              <h3 className="text-2xl font-bold mb-4">Late Night Heroes</h3>
-              <p className="text-amber-50 leading-relaxed">
-                We're here when others aren't. Your midnight craving is our mission. 
-                Quality coffee delivered when you need it most.
-              </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 fade-in">
+            <div className="group relative overflow-hidden premium-gradient text-white p-8 lg:p-10 rounded-3xl shadow-2xl card-premium">
+              <div className="absolute -top-10 -right-10 w-40 h-40 bg-amber-500/20 rounded-full blur-3xl"></div>
+              <div className="relative">
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                  <span className="material-icons md-60 lg:md-72 text-amber-200">dark_mode</span>
+                </div>
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4">Late Night Heroes</h3>
+                <div className="w-20 h-1 bg-amber-400 rounded mb-4"></div>
+                <p className="text-amber-50/90 leading-relaxed text-base lg:text-lg font-light">
+                  We're here when others aren't. Your midnight craving is our mission. 
+                  Quality coffee delivered when you need it most.
+                </p>
+              </div>
             </div>
-            <div className="bg-gradient-to-br from-amber-700 to-amber-800 text-white p-10 rounded-3xl shadow-xl transform hover:scale-105 transition-all">
-              <span className="material-icons text-6xl mb-6">local_cafe</span>
-              <h3 className="text-2xl font-bold mb-4">Comfort First</h3>
-              <p className="text-amber-50 leading-relaxed">
-                Every cup is crafted to bring warmth and comfort. We believe coffee is more 
-                than caffeine - it's a hug in a cup.
-              </p>
+            <div className="group relative overflow-hidden premium-gradient text-white p-8 lg:p-10 rounded-3xl shadow-2xl card-premium">
+              <div className="absolute -top-10 -right-10 w-40 h-40 bg-stone-500/20 rounded-full blur-3xl"></div>
+              <div className="relative">
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                  <span className="material-icons md-60 lg:md-72 text-amber-200">local_cafe</span>
+                </div>
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4">Comfort First</h3>
+                <div className="w-20 h-1 bg-amber-400 rounded mb-4"></div>
+                <p className="text-amber-50/90 leading-relaxed text-base lg:text-lg font-light">
+                  Every cup is crafted to bring warmth and comfort. We believe coffee is more 
+                  than caffeine - it's a hug in a cup.
+                </p>
+              </div>
             </div>
-            <div className="bg-gradient-to-br from-amber-800 to-amber-900 text-white p-10 rounded-3xl shadow-xl transform hover:scale-105 transition-all">
-              <span className="material-icons text-6xl mb-6">volunteer_activism</span>
-              <h3 className="text-2xl font-bold mb-4">Made with Passion</h3>
-              <p className="text-amber-50 leading-relaxed">
-                Started by coffee enthusiasts who truly care. Every drink reflects our 
-                love for the craft and our customers.
-              </p>
+            <div className="group relative overflow-hidden premium-gradient text-white p-8 lg:p-10 rounded-3xl shadow-2xl card-premium sm:col-span-2 lg:col-span-1">
+              <div className="absolute -top-10 -right-10 w-40 h-40 bg-red-500/20 rounded-full blur-3xl"></div>
+              <div className="relative">
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                  <span className="material-icons md-60 lg:md-72 text-amber-200">volunteer_activism</span>
+                </div>
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4">Made with Passion</h3>
+                <div className="w-20 h-1 bg-amber-400 rounded mb-4"></div>
+                <p className="text-amber-50/90 leading-relaxed text-base lg:text-lg font-light">
+                  Started by coffee enthusiasts who truly care. Every drink reflects our 
+                  love for the craft and our customers.
+                </p>
+              </div>
             </div>
           </div>
 
