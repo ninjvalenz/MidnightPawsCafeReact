@@ -121,12 +121,12 @@ function App() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-stone-50 via-amber-50 to-stone-50">
         {/* Navigation */}
-        <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass-effect shadow-lg' : 'bg-gradient-to-b from-black/60 to-transparent'}`}>
+        <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-2xl' : 'bg-gradient-to-b from-black/60 to-transparent'}`}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-20">
               <div className="flex items-center gap-3 cursor-pointer" onClick={() => setSelectedFood(null)}>
                 <Cat className={`w-10 h-10 ${scrolled ? 'text-amber-800' : 'text-amber-200'}`} />
-                <span className={`text-2xl md:text-3xl font-bold ${scrolled ? 'text-amber-950' : 'text-white'}`}>
+                <span className={`text-2xl md:text-3xl font-bold ${scrolled ? 'text-stone-900' : 'text-white'}`}>
                   Midnight Paws Café
                 </span>
               </div>
@@ -248,12 +248,12 @@ function App() {
   return (
     <div className="min-h-screen bg-stone-50">
       {/* Navigation */}
-      <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass-effect shadow-lg' : 'bg-gradient-to-b from-black/80 to-transparent'}`}>
+      <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-2xl' : 'bg-gradient-to-b from-black/80 to-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center gap-3">
               <Cat className={`w-10 h-10 ${scrolled ? 'text-amber-800' : 'text-amber-200'}`} />
-              <span className={`text-2xl md:text-3xl font-bold ${scrolled ? 'text-amber-950' : 'text-white'}`}>
+              <span className={`text-2xl md:text-3xl font-bold ${scrolled ? 'text-stone-900' : 'text-white'}`}>
                 Midnight Paws Café
               </span>
             </div>
@@ -265,7 +265,7 @@ function App() {
                   href={`#${item.toLowerCase()}`} 
                   className={`text-base font-medium transition-colors ${
                     scrolled 
-                      ? 'text-amber-900 hover:text-amber-700' 
+                      ? 'text-stone-700 hover:text-amber-800' 
                       : 'text-white/90 hover:text-white'
                   }`}
                 >
@@ -276,7 +276,7 @@ function App() {
                 href="https://www.doordash.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-amber-600 to-amber-700 text-white px-6 py-3 rounded-full font-semibold hover:from-amber-700 hover:to-amber-800 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+                className="bg-gradient-to-r from-amber-700 to-amber-800 text-white px-6 py-3 rounded-full font-semibold hover:from-amber-800 hover:to-amber-900 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 Order Now
               </a>
@@ -287,8 +287,8 @@ function App() {
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? 
-                <X className={scrolled ? 'text-amber-900' : 'text-white'} /> : 
-                <MenuIcon className={scrolled ? 'text-amber-900' : 'text-white'} />
+                <X className={scrolled ? 'text-stone-900' : 'text-white'} /> : 
+                <MenuIcon className={scrolled ? 'text-stone-900' : 'text-white'} />
               }
             </button>
           </div>
@@ -296,13 +296,13 @@ function App() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden glass-effect border-t border-amber-200">
+          <div className="lg:hidden bg-white border-t border-stone-200 shadow-xl">
             <div className="px-4 py-6 space-y-4">
               {['Home', 'Menu', 'About', 'Contact'].map((item) => (
                 <a 
                   key={item}
                   href={`#${item.toLowerCase()}`} 
-                  className="block text-amber-900 hover:text-amber-700 font-medium"
+                  className="block text-stone-700 hover:text-amber-800 font-medium text-lg"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item}
@@ -312,7 +312,7 @@ function App() {
                 href="https://www.doordash.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block w-full bg-gradient-to-r from-amber-600 to-amber-700 text-white text-center px-6 py-3 rounded-full font-semibold"
+                className="block w-full bg-gradient-to-r from-amber-700 to-amber-800 text-white text-center px-6 py-3 rounded-full font-semibold"
               >
                 Order on DoorDash
               </a>
