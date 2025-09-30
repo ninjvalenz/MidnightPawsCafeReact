@@ -424,6 +424,83 @@ function App() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="py-24 parallax" style={{backgroundImage: "url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&q=80')"}}>
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-950/95 via-stone-900/95 to-amber-950/95"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="fade-in">
+              <img 
+                src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80" 
+                alt="Coffee preparation"
+                className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+              />
+            </div>
+            <div className="fade-in text-white">
+              <h2 className="text-5xl lg:text-6xl font-bold mb-8 text-amber-200">Our Story</h2>
+              <div className="space-y-6 text-lg leading-relaxed">
+                <p className="text-amber-100/90">
+                  <span className="text-2xl font-bold text-amber-300">Midnight Paws Café</span> was born from a simple truth: 
+                  some of the best ideas, deepest conversations, and most productive work happen after dark.
+                </p>
+                <p className="text-amber-100/90">
+                  We're a group of passionate coffee lovers who understand the struggle of late-night cravings. 
+                  Whether you're a student burning the midnight oil, a creative finding inspiration at 2 AM, 
+                  or simply someone who loves the comfort of a warm cup of coffee when the world is quiet - 
+                  we created this for you.
+                </p>
+                <p className="text-amber-100/90">
+                  Founded by individuals who cherish <span className="text-amber-300 font-semibold">cozy moments</span>, 
+                  <span className="text-amber-300 font-semibold"> comfort</span>, and the simple pleasure of 
+                  <span className="text-amber-300 font-semibold"> exceptional coffee</span>, we believe that quality 
+                  shouldn't sleep when the sun goes down.
+                </p>
+                <p className="text-amber-100/90">
+                  Every cup we craft is made with care, delivered with speed, and designed to fuel your 
+                  late-night ambitions or simply provide that warm, comforting embrace when you need it most.
+                </p>
+                <div className="pt-8">
+                  <a 
+                    href="#menu" 
+                    className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-10 py-4 rounded-full text-lg font-bold hover:from-amber-600 hover:to-amber-700 transition-all shadow-xl"
+                  >
+                    Explore Our Coffee →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Mission Cards */}
+          <div className="grid md:grid-cols-3 gap-8 mt-20 fade-in">
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-3xl border border-amber-300/20">
+              <div className="text-4xl mb-4">🌙</div>
+              <h3 className="text-2xl font-bold text-amber-200 mb-3">Late Night Heroes</h3>
+              <p className="text-amber-100/80">
+                We're here when others aren't. Your midnight craving is our mission. 
+                Quality coffee delivered when you need it most.
+              </p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-3xl border border-amber-300/20">
+              <div className="text-4xl mb-4">☕</div>
+              <h3 className="text-2xl font-bold text-amber-200 mb-3">Comfort First</h3>
+              <p className="text-amber-100/80">
+                Every cup is crafted to bring warmth and comfort. We believe coffee is more 
+                than caffeine - it's a hug in a cup.
+              </p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-3xl border border-amber-300/20">
+              <div className="text-4xl mb-4">❤️</div>
+              <h3 className="text-2xl font-bold text-amber-200 mb-3">Made with Passion</h3>
+              <p className="text-amber-100/80">
+                Started by coffee enthusiasts who truly care. Every drink reflects our 
+                love for the craft and our customers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
